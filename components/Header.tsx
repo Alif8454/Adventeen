@@ -17,7 +17,7 @@ const Header: React.FC = () => {
   const navLinks = (
     <div className="flex items-center space-x-4">
       <span className="text-gray-600 hidden sm:inline">
-        {isLoginPage ? 'New to Advanteens?' : 'Already have an account?'}
+        {isLoginPage ? 'New to Edvanteen?' : 'Already have an account?'}
       </span>
       <Link
         to={isLoginPage ? '/signup' : '/login'}
@@ -31,16 +31,8 @@ const Header: React.FC = () => {
   return (
     <header className="py-4 px-6 sm:px-10 lg:px-20">
       <nav className="flex items-center justify-between">
-        <Link to="/" className="text-3xl font-bold text-indigo-800 flex items-center">
-            <div className="relative w-8 h-8 mr-2">
-                <svg viewBox="0 0 100 100" className="w-full h-full text-cyan-400">
-                    <polygon points="50,5 61,35 95,35 68,57 79,87 50,70 21,87 32,57 5,35 39,35" fill="currentColor"/>
-                </svg>
-                <svg viewBox="0 0 100 100" className="absolute w-full h-full text-blue-600 top-0 left-0 transform scale-75 origin-center">
-                    <polygon points="50,5 61,35 95,35 68,57 79,87 50,70 21,87 32,57 5,35 39,35" fill="currentColor"/>
-                </svg>
-            </div>
-            <span className="-ml-1">dvanteens</span>
+        <Link to="/">
+          <img src="/img/advanteen-logo.png" alt="Edvanteen Logo" className="h-8 w-auto" />
         </Link>
         <div className="hidden md:flex items-center space-x-6">
           {navLinks}
@@ -55,7 +47,7 @@ const Header: React.FC = () => {
         <div className="md:hidden mt-4 bg-white p-4 rounded-lg shadow-lg">
            <div className="flex flex-col items-center space-y-4">
                 <span className="text-gray-600">
-                    {isLoginPage ? 'New to Advanteens?' : 'Already have an account?'}
+                    {isLoginPage ? 'New to Edvanteen?' : 'Already have an account?'}
                 </span>
                 <Link
                     to={isLoginPage ? '/signup' : '/login'}

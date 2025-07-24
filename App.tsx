@@ -7,7 +7,7 @@ import LoginPage from '@/src/pages/LoginPage';
 import LandingPage from '@/src/pages/LandingPage';
 import ProfilePage from '@/src/pages/ProfilePage';
 import CoursePurchasePage from '@/src/pages/CoursePurchasePage';
-import MainLayout from './components/MainLayout';
+import MainLayout from './components/Navbar';
 
 // Layout for authentication pages to keep their specific header and background
 const AuthLayout = () => (
