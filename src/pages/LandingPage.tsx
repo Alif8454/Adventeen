@@ -24,23 +24,6 @@ const MascotCharacter = () => (
         alt="mascot"
       />
     </div>
-    <div className="absolute">
-      <div className="relative w-40 h-32 md:w-48 md:h-36 bg-[#3C3A6E] rounded-[30px] shadow-inner flex flex-col items-center justify-center">
-        <div className="flex space-x-8">
-          <div className="w-2 h-4 bg-black rounded-full transform -skew-x-12 mt-2"></div>
-          <div className="w-2 h-4 bg-black rounded-full transform skew-x-12 mt-2"></div>
-        </div>
-        <div className="w-10 h-5 border-b-2 border-black rounded-b-full mt-2"></div>
-        <div className="absolute bottom-4 left-6 w-3 h-3 bg-red-300/70 rounded-full"></div>
-        <div className="absolute bottom-4 right-6 w-3 h-3 bg-red-300/70 rounded-full"></div>
-        <div className="absolute -top-5 left-0 w-14 h-14 bg-yellow-300 rounded-full z-[-1] flex items-center justify-center">
-          <div className="w-11 h-11 bg-[#3C3A6E] rounded-full"></div>
-        </div>
-        <div className="absolute -top-5 right-0 w-14 h-14 bg-yellow-300 rounded-full z-[-1] flex items-center justify-center">
-          <div className="w-11 h-11 bg-[#3C3A6E] rounded-full"></div>
-        </div>
-      </div>
-    </div>
     <div className="absolute top-16 right-0 md:top-24 md:right-5 bg-blue-500 text-white px-4 py-2 rounded-xl shadow-lg">
       <p className="font-bold text-lg">10 K+</p>
       <p className="text-xs max-w-[100px]">
