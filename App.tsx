@@ -2,11 +2,11 @@
 import React from 'react';
 import { Routes, Route, Outlet } from 'react-router-dom';
 import Header from './components/Header';
-import SignUpPage from './pages/SignUpPage';
-import LoginPage from './pages/LoginPage';
-import LandingPage from './pages/LandingPage';
-import ProfilePage from './pages/ProfilePage';
-import CoursePurchasePage from './pages/CoursePurchasePage';
+import SignUpPage from '@/src/pages/SignUpPage';
+import LoginPage from '@/src/pages/LoginPage';
+import LandingPage from '@/src/pages/LandingPage';
+import ProfilePage from '@/src/pages/ProfilePage';
+import CoursePurchasePage from '@/src/pages/CoursePurchasePage';
 import MainLayout from './components/MainLayout';
 
 // Layout for authentication pages to keep their specific header and background
